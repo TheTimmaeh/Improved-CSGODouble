@@ -19,7 +19,7 @@ $(document).ready(function(){
     if(typeof $('#chatArea').niceScroll == 'function'){
       $('#chatArea').addClass('IMP_scroll').niceScroll({
         cursorcolor: '#888',
-        cursorborder: '1px solid #888',
+        cursorborder: '1px solid #888',c
         cursoropacitymin: 0,
         cursoropacitymax: 0.6,
         autohidemode: 'cursor',
@@ -171,7 +171,6 @@ var IMP = {
     });
     
     $('.modshort').off('click').on('click', function(e){
-      console.log(e);
       var steamid = $('.IMP_active_msg > .chat-img').data('steamid');
       var seconds = $(this).data('seconds');
       send({type: 'chat', msg: '/mute ' + steamid + ' ' + seconds, lang: LANG});
