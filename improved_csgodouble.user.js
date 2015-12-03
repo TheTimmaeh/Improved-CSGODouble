@@ -8,13 +8,13 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
-// @updateURL    https://github.com/Timmaeh/Improved-CSGODouble/raw/master/improved_csgodouble.user.js
-// @downloadURL  https://github.com/Timmaeh/Improved-CSGODouble/raw/master/improved_csgodouble.user.js
+// @updateURL    https://rawgit.com/Timmaeh/Improved-CSGODouble/master/improved_csgodouble.user.js
+// @downloadURL  https://rawgit.com/Timmaeh/Improved-CSGODouble/master/improved_csgodouble.user.js
 // ==/UserScript==
 
 $(document).ready(function(){
   //jQuery.NiceScroll https://github.com/inuyaksa/jquery.nicescroll
-  $('head').append('<script type="text/javascript" src="https://rawgit.com/inuyaksa/jquery.nicescroll/master/jquery.nicescroll.min.js"></script>');
+  $('head').append('<script type="text/javascript" src="https://rawgit.com/Timmaeh/Improved-CSGODouble/master/jquery.nicescroll.min.js"></script>');
   var w84niceScroll = setInterval(function(){
     if(typeof $('#chatArea').niceScroll == 'function'){
       $('#chatArea').addClass('IMP_scroll').niceScroll({
@@ -87,7 +87,7 @@ var IMP = {
     $('#pullout').append('<div id="tab14" class="tab-group hidden">' + IMP.settings_html + '</div>');
 
     // Dark Theme
-    $('head').append('<link href="https://raw.githubusercontent.com/Timmaeh/Improved-CSGODouble/master/dark_theme.css" rel="stylesheet" />');
+    $('head').append('<link href="https://rawgit.com/Timmaeh/Improved-CSGODouble/master/dark_theme.css" rel="stylesheet" />');
     
     // Chat Highlight
     //$('#contextMenu li').first().clone().attr('id', 'IMP_highlight').appendTo('#contextMenu');
