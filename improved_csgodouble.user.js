@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Improved CSGODouble.com
-// @namespace    http://timmaeh.de/csgodouble/
+// @namespace    https://github.com/Timmaeh/Improved-CSGODouble/
 // @version      0.9h
 // @description  Improves your experience on CSGODouble.com
 // @author       Timmaeh - http://timmaeh.de
@@ -8,8 +8,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
-// @updateURL    http://timmaeh.de/csgodouble/improved_csgodouble.user.js
-// @downloadURL  http://timmaeh.de/csgodouble/improved_csgodouble.user.js
+// @updateURL    https://github.com/Timmaeh/Improved-CSGODouble/raw/master/improved_csgodouble.user.js
+// @downloadURL  https://github.com/Timmaeh/Improved-CSGODouble/raw/master/improved_csgodouble.user.js
 // ==/UserScript==
 
 $(document).ready(function(){
