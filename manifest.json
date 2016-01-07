@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Improved CSGODouble",
+  "description": "Improves your experience on CSGODouble.com",
+  "version": "1.0.5",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "http://www.csgodouble.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.csgodouble.com/*"],
+      "css": ["improved_csgodouble.css"],
+      "js": ["extension.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "improved_csgodouble.js",
+    "jquery.nicescroll.min.js",
+    "roll.mp3"
+  ]
+}
