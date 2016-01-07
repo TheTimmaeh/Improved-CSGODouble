@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Improved CSGODouble",
   "description": "Improves your experience on CSGODouble.com",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
